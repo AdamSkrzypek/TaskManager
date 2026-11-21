@@ -13,3 +13,10 @@
 
 # OS files
 .DS_Store
+
+# Local environment files (keep examples versioned)
+**/.env
+**/.env.*
+!**/.env.example
+/backend/.env
+/tasks/improvements.md
